@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROW YOUR GARDEN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="index-body">
+      
+<div class="container">
+
+   <div class="title">
+     <h2>Welcome to your daily garden!</h2>
+
+     <p>Enter the activities you did during the day and choose your mood for that day. <br><br>
+      Let your garden grow!</p>
+   </div>
+
+   <div class="icons">
+     <img src="icons.png" alt="garden collage">
+    </div>
+
+  <div class="forms"> 
+      <input class="input" type="text" id="activities"name="activities" placeholder="What did you do today ?">
+      <select  class="input" name="mood" id="mood">
+         <option value="" disabled selected hidden>Select your mood for today</option>
+         <option value="Happy">Happy</option>
+         <option value="Sad">Sad</option>
+         <option value="a">Angry</option>
+         <option value="Calm">Calm</option>
+         <option value="Tired">Tired</option>
+         <option value="Creative">Creative</option>
+      </select>
+
+     <input class="input" type="date" id="date" name="date">
+     <button class="input" type="button" id="addEntry">Add entry</button>
+
+     <a href="garden.html" >
+      <button class="input" id="indexbutton" type="button">View garden</button>
+     </a>
+ 
+  </div>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
